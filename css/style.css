@@ -50,8 +50,8 @@ h1, h2, h3, h4, h5, h6, u {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  padding-top: 22px;
-  padding-right: 50px;
+  margin-top: 22px;
+  margin-right: 50px;
   color: #fff;
 }
 
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6, u {
 }
 
 .nav__link:last-child {
-  padding-right: 37px;
+  margin-right: 37px;
 }
 
 .buy__button {
