@@ -1,6 +1,5 @@
 /* ПОДКЛЮЧЕНИЕ ШРИФТОВ */
 @import url('https://fonts.googleapis.com/css?family=Heebo:100,200,300,regular,500,600,700,800,900');
-@import "fonts";
 
 body {
   background-color: #E1DDDB;
