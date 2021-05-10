@@ -200,14 +200,15 @@ h1, h2, h3, h4, h5, h6 {
 .info__text p {
   font-style: normal;
   font-weight: 300;
-  font-size: 22px;
+  font-size: 21px;
   text-align: justify;
 }
 
 
 /* FOOTER */
 .social__icons {
-  top: 74px;
+  position: relative;
+  top: 21px;
   display: flex;
   justify-content: center;
 }
@@ -252,5 +253,5 @@ h1, h2, h3, h4, h5, h6 {
 .copyright {
   position: relative;
   text-align: center;
-  margin: 8px 0px 33px;
+  margin: 35px 0px 33px;
 }
