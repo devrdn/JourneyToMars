@@ -112,7 +112,7 @@ body {
 }
 
 .hero-title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 202px;
   letter-spacing: 0.200em;
   margin-top: 49px;
@@ -144,17 +144,20 @@ body {
 .topic-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 53px;
+  line-height: 30px;
   color: #252525;
   text-transform: capitalize;
 }
 
 .topic-text {
-  display: grid;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .topic-paragraph {
+  position: relative;
+  margin-top: 20px;
   font-weight: 300;
   font-size: 21px;
   line-height: 34px;
@@ -166,7 +169,6 @@ body {
   text-align: right;
 }
 
-/* FOOTER */
 .social-media {
   position: relative;
   display: flex;
