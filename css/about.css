@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,200,300,regular,500,600,700,800,900');
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  text-decoration: none;
+}
+
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: 'Heebo', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: #E1DDDB;
+}
+
+.header {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  top: 22px;
+  font-weight: 400;
+  font-size: 18px;
+  z-index: 1;
+}
+
+.nav__link {
+  text-decoration: none;
+  -moz-text-decoration-line: none;
+  text-decoration-line: none;
+  margin-right: 50px;
+  color: #fff;
+}
+
+.nav__link:last-child {
+  margin-right: 37px;
+}
+
+.nav__link:hover {
+  text-decoration: none;
+  color: #DEDEDE;
+  -webkit-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.link--about {
+  color: #FFC266;
+}
+
+.link--about:hover {
+  color: #D6A459;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("../media/about/hero-bg.jpg");
+  background-position: center;
+  background-position: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.hero-blur {
+  backdrop-filter: blur(2px);
+  height: 100vh;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.hero-sub {
+  font-weight: 300;
+  font-size: 96px;
+  letter-spacing: 0.800em;
+  line-height: 119px;
+  align-items: center;
+  text-transform: uppercase;
+  color: rgba(236, 231, 229, 1);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 169px;
+  text-transform: uppercase;
+  align-items: center;
+  letter-spacing: 0.400em;
+  color: #ffc266;
+  transform: translateX(6px);
+}
+
+.container {
+  max-width: 1134px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}

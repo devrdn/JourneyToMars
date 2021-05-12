@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <title></title>
+  <title>Welcome to Mars</title>
 </head>
 
 <body>
@@ -14,7 +15,7 @@
     <div class="cover__logo">
       <div class="cover__blur">
         <nav class="nav">
-          <a href="#" class="nav__link">About</a>
+          <a href="about.html" class="nav__link">About</a>
           <a href="#" class="nav__link buy__button">Buy</a>
           <a href="#" class="nav__link">Gallery</a>
           <a href="#" class="nav__link">Contacts</a>
@@ -31,52 +32,54 @@
   </header>
 
   <!-- Наполнение сайта (контент) -->
-  <main class="container">
+  <main>
+    <div class="container">
 
-    <div class="headline">
-      <p>Peculiarities of traveling to Mars</p>
+      <div class="headline">
+        <h3>Peculiarities of traveling to Mars</h3>
+      </div>
+
+      <!-- Возможности -->
+      <section class="features">
+        <div class="inline__box">
+
+          <div class="info__box">
+            <img src="media/ico/ufo.svg" alt="" class="icon">
+            <h4>Accusamus iusto</h4>
+            <p>Aut voluptatum sit eum facilis reiciendis et vitae. Maiores quia sit. Ex id earum. Repellat et in omnis qui veniam asperiores sit. </p>
+          </div>
+
+          <div class="info__box">
+            <img src="media/ico/Planet.svg" alt="">
+            <h4>Lure accusatium</h4>
+            <p>Error nihil cum repudiandae quis qui dolore reiciendis placeat qui. Id et accusantium velit sapiente quaerat vel dolor error. Id et accusantium.</p>
+          </div>
+
+          <div class="info__box">
+            <img src="media/ico/Launch.svg" alt="">
+            <h4>Sint iusto et</h4>
+            <p>In quia iste. Error nulla quidem cupiditate enim tempore nihil mollitia labore. Consequatur repellendus hic maiores et dolore officiis at omnis.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Дополнительная информация -->
+      <section class="extra__info">
+        <div class="info">
+          <img src="media/main/mars1.jpg" alt="" class="info__photo">
+          <div class="info__text">
+            <h1>Heading</h1>
+            <p>Non aut qui error quae ut atque eaque soluta. Consequatur voluptates laudantium itaque voluptates recusandae sed enim. Temporibus placeat voluptatem repellendus dignissimos enim sit ipsum. Assumenda quis velit
+              consequatur.Temporibus
+              placeat voluptatem repellendus dignissimos enim sit ipsum. Assumenda quis velit consequatur.</p>
+          </div>
+        </div>
+      </section>
+
     </div>
-
-    <!-- Три блока -->
-    <section class="features">
-      <div class="inline__box">
-
-        <div class="info__box">
-          <img src="media/ico/ufo.svg" alt="" class="icon">
-          <h1>Accusamus iusto</h1>
-          <p>Aut voluptatum sit eum facilis reiciendis et vitae. Maiores quia sit. Ex id earum. Repellat et in omnis qui veniam asperiores sit. </p>
-        </div>
-
-        <div class="info__box">
-          <img src="media/ico/Planet.svg" alt="">
-          <h1>Lure accusatium</h1>
-          <p>Error nihil cum repudiandae quis qui dolore reiciendis placeat qui. Id et accusantium velit sapiente quaerat vel dolor error. Id et accusantium.</p>
-        </div>
-
-        <div class="info__box">
-          <img src="media/ico/Launch.svg" alt="">
-          <h1>Sint iusto et</h1>
-          <p>In quia iste. Error nulla quidem cupiditate enim tempore nihil mollitia labore. Consequatur repellendus hic maiores et dolore officiis at omnis.</p>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Дополнительная информация -->
-    <section class="extra__info">
-      <div class="info">
-        <img src="media/main/mars1.jpg" alt="" class="info__photo">
-        <div class="info__text">
-          <h1>Heading</h1>
-          <p>Non aut qui error quae ut atque eaque soluta. Consequatur voluptates laudantium itaque voluptates recusandae sed enim. Temporibus placeat voluptatem repellendus dignissimos enim sit ipsum. Assumenda quis velit
-            consequatur.Temporibus
-            placeat voluptatem repellendus dignissimos enim sit ipsum. Assumenda quis velit consequatur.</p>
-        </div>
-      </div>
-    </section>
-
-
   </main>
+
 
   <!-- Соц. сети и Copyright -->
   <footer>
@@ -87,7 +90,7 @@
       <a href="https://www.vk.com/" class="vk"></a>
     </div>
     <div class="copyright">
-      <p>Copyright © 2021. All rights reserved.</p>
+      <small>Copyright &copy;&nbsp;2021. All rights reserved.</small>
     </div>
   </footer>
 
