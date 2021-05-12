@@ -6,7 +6,7 @@ body {
   font-style: normal;
   margin: 0;
   min-height: 100vh;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Heebo', cursive;
 }
 
 *,
@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav__link {
   -moz-text-decoration-line: none;
   text-decoration-line: none;
+  font-family: Heebo;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -95,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 .maintitle {
   margin-bottom: 49px;
   margin-left: 0.315em;
+  line-height: 1;
   letter-spacing: 0.400em;
   font-size: 202px;
   color: #FFC266;
@@ -118,8 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* MAIN PART */
 .container {
-  width: 1134px;
-  padding: 0 15px;
+  width: 1104px;
   margin: 0 auto;
 }
 
@@ -133,9 +134,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #252525;
 }
 
-
-
-.grid__boxes {
+/* INFO BOXES */
+.grid__box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 53px auto;
 }
 
-.info__box h4 {
+.info__box h1 {
   text-align: center;
   margin: 0px auto;
   font-weight: 500;
