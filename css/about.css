@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:100,200,300,regular,500,600,700,800,900');
-
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -34,7 +34,10 @@ body {
   left: 0px;
   top: 0px;
   width: 100%;
+  z-index: 2;
 }
+
+
 
 .nav {
   position: relative;
@@ -51,7 +54,7 @@ body {
   -moz-text-decoration-line: none;
   text-decoration-line: none;
   margin-right: 50px;
-  color: #fff;
+  color: rgba(236, 231, 229, 1);
 }
 
 .nav__link:last-child {
@@ -101,8 +104,8 @@ body {
 
 .hero-sub {
   font-weight: 300;
-  font-size: 96px;
-  letter-spacing: 0.800em;
+  letter-spacing: 0.400em;
+  font-size: 150px;
   line-height: 119px;
   align-items: center;
   text-transform: uppercase;
@@ -111,13 +114,13 @@ body {
 
 .hero-title {
   font-weight: 700;
-  font-size: 200px;
-  line-height: 169px;
+  font-size: 202px;
+  letter-spacing: 0.200em;
+  margin-top: 49px;
   text-transform: uppercase;
   align-items: center;
-  letter-spacing: 0.400em;
   color: #ffc266;
-  transform: translateX(6px);
+  transform: translateX(1px);
 }
 
 .container {
