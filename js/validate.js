@@ -1,15 +1,16 @@
 function  Check_Form () {
+
   document.getElementById("error1").innerHTML = '';
   document.getElementById("error2").innerHTML = '';
   document.getElementById("error3").innerHTML = '';
   document.getElementById("error4").innerHTML = '';
+
   var err = 0;
   var name, surname, date, address, phone;
   name = document.getElementById('form1_name').value;
   surname = document.getElementById('form1_surname').value;
   adress = document.getElementById('form1_adress').value;
   email = document.getElementById('form1_email').value;
-  alert(name + surname+adress+email);
 
   // Проверка имени.
   if (name == "") {
