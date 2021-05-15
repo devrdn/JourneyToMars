@@ -60,9 +60,9 @@ h1, h2, h3, h4, h5, h6 {
 .nav__link:hover {
   text-decoration: none;
   color: #DEDEDE;
-  -webkit-transition: color 0.2s ease-in;
-  -o-transition: color 0.2s ease-in;
-  transition: color 0.2s ease-in;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 
 .nav__link:last-child {
