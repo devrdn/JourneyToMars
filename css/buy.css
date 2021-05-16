@@ -244,6 +244,15 @@ body {
   background-color: transparent;
 }
 
+.timer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  bottom: 10px;
+  left: 20px;
+  color: #fff;
+}
 
 .social-media {
   position: relative;
